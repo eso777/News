@@ -5,6 +5,7 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use Auth ;
+use Validator;
 
 class LoginCtrl extends Controller {
 
@@ -29,27 +30,31 @@ class LoginCtrl extends Controller {
 	{
 		if(Auth::admin()->check() == true)
 		{	
-			
-			return redirect()->to(Url('/').'/admin');
+			return false;
 		}
-
+		$validator = Validator::make($bag->all(),[
+			    'email'            		=> 'required|email',
+				'password'        		=> 'required',
+			]);
+		if($validator->fails()){
+			return response()->json(['scode'=>401,'errors'=>$validator->errors()->all()],202);	
+		}
 		if(Auth::admin()->attempt(['email' => $bag->email , 'password' => $bag->password ]))	
 		{
-			return redirect()->intended('/admin');	
+			return response()->json(['scode'=>202,'msg'=>["successfully logged in , redirecting please wait ..."]],202);	
 		}
+		return response()->json(['scode'=>401, 'errors'=>["Wrong Email or Password ."]],202);	
 		
-		return redirect()->back()->withErrors(['يوجد خطأ في البريد الألكتروني أو كلمة المرور .']);
-
-
-
 	}
 
-	public function adminLogout(){
-
-		
-		@Auth::admin()->logout() ;
+	public function adminLogout()
+	{
+		if(Auth::admin()->check() == true)
+		{
+			Auth::admin()->logout() ;
+			return redirect()->to(Url('/').'/admin/login') ;
+		}
 		return redirect()->to(Url('/').'/admin/login') ;
-
 	}
 	
 

@@ -29,7 +29,7 @@ License: You must have a valid license purchased only from themeforest(the above
 {!! Html::style('http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&subset=all')!!}
 {!! Html::style('back/assets/global/plugins/font-awesome/css/font-awesome.min.css')!!}
 {!! Html::style('back/assets/global/plugins/simple-line-icons/simple-line-icons.min.css')!!}
-{!! Html::style('back/assets/global/plugins/bootstrap/css/bootstrap-rtl.min.css')!!}
+{!! Html::style('back/assets/global/plugins/bootstrap/css/bootstrap.min.css')!!}
 {!! Html::style('back/assets/global/plugins/uniform/css/uniform.default.css')!!}
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL STYLES -->
@@ -44,11 +44,6 @@ License: You must have a valid license purchased only from themeforest(the above
 {!! Html::style('back/assets/admin/layout/css/custom.css')!!}
 
 
-<link href="../../" id="style_components" rel="stylesheet" type="text/css"/>
-<link href="../../" rel="stylesheet" type="text/css"/>
-<link href="../../" rel="stylesheet" type="text/css"/>
-<link id="style_color" href="../../" rel="stylesheet" type="text/css"/>
-<link href="../../" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 </head>
@@ -57,9 +52,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <body class="page-md login">
 <!-- BEGIN LOGO -->
 <div class="logo">
-	<a href="index.html">
-	<img src="{!!Url('/')!!}/back/assets/admin/layout4/img/logo-big.png" alt=""/>
-	</a>
+	<h2 style="color:white"><span style="color:red">MoT</span>wreen</h2>
 </div>
 <!-- END LOGO -->
 <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
@@ -67,40 +60,46 @@ License: You must have a valid license purchased only from themeforest(the above
 </div>
 <!-- END SIDEBAR TOGGLER BUTTON -->
 <!-- BEGIN LOGIN -->
+<div id="notify" style="display:none;">
+	<div id="login-status" class="error-notice info" style="visibility: visible; opacity: 1;">
+	    <div class="content-wrapper">
+	        <div id="login-detail">
+	            <div id="login-status-icon-container"><i class="fa fa-spinner fa-pulse fa-2x fa-fw"></i></div>
+	            <ul id="login-status-message" class="list-unstyled">Please Wait : Checking for your credentials.</ul>
+	        </div>
+	    </div>
+	</div>
+</div>
 <div class="content">
 	<!-- BEGIN LOGIN FORM -->
-	<form class="login-form" action="index.html" method="post">
+	<!-- <form class="login-form" action="index.html" method="post"> -->
+		{!!Form::open(['url'=>Url('/admin/login')])!!}
 		<h3 class="form-title">Login to your account</h3>
-		<div class="alert alert-danger display-hide">
-			<button class="close" data-close="alert"></button>
-			<span>
-			Enter any username and password. </span>
-		</div>
+
+
 		<div class="form-group">
 			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-			<label class="control-label visible-ie8 visible-ie9">Username</label>
+			<label class="control-label visible-ie8 visible-ie9">Email</label>
 			<div class="input-icon">
 				<i class="fa fa-user"></i>
-				<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="email"/>
+				<input id="email" class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="E-mail" name="email"/>
 			</div>
 		</div>
 		<div class="form-group">
 			<label class="control-label visible-ie8 visible-ie9">Password</label>
 			<div class="input-icon">
 				<i class="fa fa-lock"></i>
-				<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>
+				<input id="password" class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>
 			</div>
 		</div>
 		<div class="form-actions">
 			<label class="checkbox">
 			<input type="checkbox" name="remember" value="1"/> Remember me </label>
-			<button type="submit" class="btn blue pull-right">
+			<button type="submit" id="btn-login" class="btn blue pull-right">
 			Login <i class="m-icon-swapright m-icon-white"></i>
 			</button>
 		</div>
-		
-		
-	</form>
+		{!!Form::close()!!}
 	
 	<!-- END REGISTRATION FORM -->
 </div>
@@ -134,25 +133,28 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src="{!!Url('/')!!}/back/assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
 <script src="{!!Url('/')!!}/back/assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
 <script src="{!!Url('/')!!}/back/assets/admin/pages/scripts/login-soft.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/global/js/custom.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
-jQuery(document).ready(function() {     
-  Metronic.init(); // init metronic core components
-Layout.init(); // init current layout
-  Login.init();
-  Demo.init();
-       // init background slide images
-       $.backstretch([
-        "{!!Url('/')!!}/back/assets/admin/pages/media/bg/1.jpg",
-        "{!!Url('/')!!}/back/assets/admin/pages/media/bg/2.jpg",
-        "{!!Url('/')!!}/back/assets/admin/pages/media/bg/3.jpg",
-        "{!!Url('/')!!}/back/assets/admin/pages/media/bg/4.jpg",
-        ], {
-          fade: 1000,
-          duration: 8000
-    }
-    );
-});
+$(document).ready(function(){
+    $.backstretch([
+	    "{!!Url('/')!!}/back/assets/admin/pages/media/bg/1.jpg",
+	    "{!!Url('/')!!}/back/assets/admin/pages/media/bg/2.jpg",
+	    "{!!Url('/')!!}/back/assets/admin/pages/media/bg/3.jpg",
+	    "{!!Url('/')!!}/back/assets/admin/pages/media/bg/4.jpg",
+    ], {
+      fade: 1000,
+      duration: 8000
+    });
+
+    $('#btn-login').on('click',function(event){
+   		event.preventDefault();
+    	do_login("{{url('/')}}/admin/login");
+    });
+})
+
+
+
 </script>
 <!-- END JAVASCRIPTS -->
 </body>

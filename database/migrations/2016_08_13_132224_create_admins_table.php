@@ -20,6 +20,7 @@ class CreateAdminsTable extends Migration {
 			$table->string('password',60);
 			$table->text('pre');
 			$table->text('cat_pre');
+			$table->string('remember_token');
 			$table->timestamps();
 		});
 	}

@@ -1,12 +1,11 @@
 $(document).ready(function() {    
     
-    /* Start Trigger Init() [ With - admin panel Metronic ] */ 
-
-    Metronic.init();    // init metronic core components
-	Layout.init();    // init current layout
-	Demo.init();    // init demo features
-    ComponentsFormTools.init();
-
+    Metronic.init(); // init metronic core components
+	Layout.init(); // init current layout
+	Login.init();
+  	Demo.init();
+       // init background slide images
+   
     /* End Trigger Init() [ With - admin panel Metronic ] */ 
     
     /*******************************************************
@@ -67,8 +66,44 @@ $(document).ready(function() {
  			});
 
     	});
-
-    /* Start Js Page [ Photos - Admin Panel ] */
-
-
 });
+    /* Start Js Page [ Photos - Admin Panel ] */
+	function do_login(url) {
+   		$('button').prop("disabled", true);
+   		$('input').prop("disabled", true);
+   		$('#notify').show();
+
+   		$.post( url , { email: $('#email').val() , password: $('#password').val() }).done(function( data )
+		{
+		  	if(data.scode == 401)
+		  	{
+		  		$('#login-status').removeClass('info');
+		  		$('#login-status-icon-container').find('i').removeClass('fa-spinner fa-pulse');
+		  		$('#login-status-icon-container').find('i').addClass('fa-times-circle');
+		  		$('#login-status-message').html('');
+		  		$.each(data.errors, function(k, v) {
+				    $('#login-status-message').append('<li>'+v+'</li>')
+				});
+				$('button').prop("disabled", false);
+					$('input').prop("disabled", false);
+		  	}else if(data.scode == 202){
+		  		$('#login-status').removeClass('info');
+	  			$('#login-status').addClass('success');
+	  			$('#login-status-icon-container').find('i').removeClass('fa-spinner fa-pulse');
+		  		$('#login-status-icon-container').find('i').addClass('fa-check-circle');
+		  		$('#login-status-message').html('');
+			    $.each(data.msg, function(k, v) {
+				    $('#login-status-message').append('<li>'+v+'</li>')
+				});
+				location.reload();
+		  	}else{
+		  		$('#login-status').removeClass('info');
+		  		$('#login-status-icon-container').find('i').removeClass('fa-spinner fa-pulse');
+		  		$('#login-status-icon-container').find('i').addClass('fa-check-circle');
+		  		$('#login-status-message').html('');
+			    $('#login-status-message').append('<li>Some Error Happened</li>')
+				$('button').prop("disabled", false);
+				$('input').prop("disabled", false);
+		  	}
+  		});
+	}	
