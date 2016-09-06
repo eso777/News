@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <!-- 
 Template Name: Metronic - Responsive Admin Dashboard Template build with Twitter Bootstrap 3.3.2
-Version: 3.3.0
+Version: 3.7.0
 Author: KeenThemes
 Website: http://www.keenthemes.com/
 Contact: support@keenthemes.com
@@ -13,12 +14,12 @@ License: You must have a valid license purchased only from themeforest(the above
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
-<html lang="en" dir="rtl">
+<html lang="en">
 <!--<![endif]-->
 <!-- BEGIN HEAD -->
 <head>
 <meta charset="utf-8"/>
-<title>SaWa4 Control Panel</title>
+<title>Metronic | Login Options - Login Form 4</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
@@ -30,104 +31,127 @@ License: You must have a valid license purchased only from themeforest(the above
 {!! Html::style('back/assets/global/plugins/simple-line-icons/simple-line-icons.min.css')!!}
 {!! Html::style('back/assets/global/plugins/bootstrap/css/bootstrap-rtl.min.css')!!}
 {!! Html::style('back/assets/global/plugins/uniform/css/uniform.default.css')!!}
-
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL STYLES -->
-{!! Html::style('back/assets/admin/pages/css/login-rtl.css')!!}
+{!! Html::style('back/assets/global/plugins/select2/select2.css')!!}
+{!! Html::style('back/assets/admin/pages/css/login-soft.css')!!}
 <!-- END PAGE LEVEL SCRIPTS -->
 <!-- BEGIN THEME STYLES -->
-{!! Html::style('back/assets/global/css/components-md-rtl.css')!!}
-{!! Html::style('back/assets/global/css/plugins-md-rtl.css')!!}
-{!! Html::style('back/assets/admin/layout/css/layout-rtl.css')!!}
-{!! Html::style('back/assets/admin/layout/css/themes/default-rtl.css')!!}
-{!! Html::style('back/assets/admin/layout2/css/custom-rtl.css')!!}
+{!! Html::style('back/assets/global/css/components-md.css')!!}
+{!! Html::style('back/assets/global/css/plugins-md.css')!!}
+{!! Html::style('back/assets/admin/layout/css/layout.css')!!}
+{!! Html::style('back/assets/admin/layout/css/themes/default.css')!!}
+{!! Html::style('back/assets/admin/layout/css/custom.css')!!}
 
+
+<link href="../../" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="../../" rel="stylesheet" type="text/css"/>
+<link href="../../" rel="stylesheet" type="text/css"/>
+<link id="style_color" href="../../" rel="stylesheet" type="text/css"/>
+<link href="../../" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 </head>
 <!-- END HEAD -->
 <!-- BEGIN BODY -->
 <body class="page-md login">
+<!-- BEGIN LOGO -->
+<div class="logo">
+	<a href="index.html">
+	<img src="{!!Url('/')!!}/back/assets/admin/layout4/img/logo-big.png" alt=""/>
+	</a>
+</div>
+<!-- END LOGO -->
 <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
 <div class="menu-toggler sidebar-toggler">
 </div>
 <!-- END SIDEBAR TOGGLER BUTTON -->
-<!-- BEGIN LOGO -->
-<div class="logo">
-	<a href="">
-		{!! Html::image('back/assets/global/img/sawa4-white.png')!!}
-	</a>
-</div>
-<!-- END LOGO -->
 <!-- BEGIN LOGIN -->
 <div class="content">
 	<!-- BEGIN LOGIN FORM -->
-	{!!Form::open()!!}
-		<h3 class="form-title">تسجيل الدخول</h3>
-			@if (count($errors) > 0)
-				<div class="alert alert-danger">
-					{{Lang::get('assets.error')}}<br><br>
-					<ul>
-						@foreach ($errors->all() as $error)
-							<li>{{$error}}</li>
-						@endforeach
-					</ul>
-				</div>
-			@endif
-			
+	<form class="login-form" action="index.html" method="post">
+		<h3 class="form-title">Login to your account</h3>
+		<div class="alert alert-danger display-hide">
+			<button class="close" data-close="alert"></button>
+			<span>
+			Enter any username and password. </span>
+		</div>
 		<div class="form-group">
 			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-			<label class="control-label visible-ie8 visible-ie9">اسم المستخدم</label>
-			<input class="form-control form-control-solid placeholder-no-fix" name="email" type="text"  placeholder="البريد الإلكترونى او اسم المستخدم" name="username"/>
+			<label class="control-label visible-ie8 visible-ie9">Username</label>
+			<div class="input-icon">
+				<i class="fa fa-user"></i>
+				<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="email"/>
+			</div>
 		</div>
 		<div class="form-group">
 			<label class="control-label visible-ie8 visible-ie9">Password</label>
-			<input class="form-control form-control-solid placeholder-no-fix" name="password" type="password" autocomplete="off" placeholder="كلمه السر" name="password"/>
+			<div class="input-icon">
+				<i class="fa fa-lock"></i>
+				<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password"/>
+			</div>
 		</div>
 		<div class="form-actions">
-			<button type="submit" class="btn btn-success uppercase">تسجيل الدخول</button>
-			<label class="rememberme check">
-			<input type="checkbox" name="remember" value="1"/>تذكرنى </label>
+			<label class="checkbox">
+			<input type="checkbox" name="remember" value="1"/> Remember me </label>
+			<button type="submit" class="btn blue pull-right">
+			Login <i class="m-icon-swapright m-icon-white"></i>
+			</button>
 		</div>
 		
 		
 	</form>
 	
-</div>
-<div class="copyright">
-		SawaNews 1.1.0
-	  جميع الحقوق محفوظه لمؤسسه سوافور © 2016.
+	<!-- END REGISTRATION FORM -->
 </div>
 <!-- END LOGIN -->
+<!-- BEGIN COPYRIGHT -->
+<div class="copyright">
+	 2014 &copy; <a href="http://motwreen.com">MoTwreen</a> - NewsSystem V1.0 .
+</div>
+
+<!-- END COPYRIGHT -->
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
 <script src="../../assets/global/plugins/respond.min.js"></script>
 <script src="../../assets/global/plugins/excanvas.min.js"></script> 
 <![endif]-->
-
-{!!Html::script('back/assets/global/plugins/jquery.min.js')!!}
-{!!Html::script('back/assets/global/plugins/jquery-migrate.min.js')!!}
-{!!Html::script('back/assets/global/plugins/bootstrap/js/bootstrap.min.js')!!}
-{!!Html::script('back/assets/global/plugins/jquery.blockui.min.js')!!}
-{!!Html::script('back/assets/global/plugins/uniform/jquery.uniform.min.js')!!}
-{!!Html::script('back/assets/global/plugins/jquery.cokie.min.js')!!}
+<script src="{!!Url('/')!!}/back/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/global/plugins/jquery.blockui.min.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/global/plugins/jquery.cokie.min.js" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- BEGIN PAGE LEVEL PLUGINS -->
-{!!Html::script('back/assets/global/plugins/jquery-validation/js/jquery.validate.min.js')!!}
+<script src="{!!Url('/')!!}/back/assets/global/plugins/jquery-validation/js/jquery.validate.min.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/global/plugins/backstretch/jquery.backstretch.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="{!!Url('/')!!}/back/assets/global/plugins/select2/select2.min.js"></script>
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
-{!!Html::script('back/assets/global/scripts/metronic.js')!!}
-{!!Html::script('back/assets/admin/layout/scripts/layout.js')!!}
-{!!Html::script('back/assets/admin/layout/scripts/demo.js')!!}
-{!!Html::script('back/assets/admin/pages/scripts/login.js')!!}
+<script src="{!!Url('/')!!}/back/assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/admin/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/admin/pages/scripts/login-soft.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
 jQuery(document).ready(function() {     
-Metronic.init(); // init metronic core components
+  Metronic.init(); // init metronic core components
 Layout.init(); // init current layout
-Login.init();
-Demo.init();
+  Login.init();
+  Demo.init();
+       // init background slide images
+       $.backstretch([
+        "{!!Url('/')!!}/back/assets/admin/pages/media/bg/1.jpg",
+        "{!!Url('/')!!}/back/assets/admin/pages/media/bg/2.jpg",
+        "{!!Url('/')!!}/back/assets/admin/pages/media/bg/3.jpg",
+        "{!!Url('/')!!}/back/assets/admin/pages/media/bg/4.jpg",
+        ], {
+          fade: 1000,
+          duration: 8000
+    }
+    );
 });
 </script>
 <!-- END JAVASCRIPTS -->
