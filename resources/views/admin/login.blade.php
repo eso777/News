@@ -104,10 +104,13 @@ License: You must have a valid license purchased only from themeforest(the above
 	<!-- END REGISTRATION FORM -->
 </div>
 <!-- END LOGIN -->
+
 <!-- BEGIN COPYRIGHT -->
 <div class="copyright">
 	 2014 &copy; <a href="http://motwreen.com">MoTwreen</a> - NewsSystem V1.0 .
 </div>
+
+
 
 <!-- END COPYRIGHT -->
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
@@ -136,6 +139,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src="{!!Url('/')!!}/back/assets/global/js/custom.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
+
 $(document).ready(function(){
     $.backstretch([
 	    "{!!Url('/')!!}/back/assets/admin/pages/media/bg/1.jpg",
@@ -152,8 +156,6 @@ $(document).ready(function(){
     	do_login("{{url('/')}}/admin/login");
     });
 })
-
-
 
 </script>
 <!-- END JAVASCRIPTS -->

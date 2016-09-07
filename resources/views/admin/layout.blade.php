@@ -227,6 +227,14 @@ Compiled and minified CSS -->
 						</a>
 					</li>
 					 -->
+
+					<li class="{{Request::is('admin/settings*') ? 'active' : ''}}">
+						<a href="{!!Url('/')!!}/admin/settings">
+						<i class="icon-users"></i>
+						<span class="title">الأعدادات</span>
+						</a>
+					</li>
+
 					<li class="{{Request::is('admin/admins*') ? 'active' : ''}}">
 						<a href="{!!Url('/')!!}/admin/admins">
 						<i class="icon-users"></i>

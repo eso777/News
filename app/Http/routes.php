@@ -12,6 +12,10 @@ Route::group(['prefix' => 'admin', 'middleware'=>'authAdmin'], function() {
 		return View('admin.layout');
 	});	
 
+	// Site Settings .
+	Route::resource('settings' , 'SettingsCtrl') ;
+	// Site Settings .
+
 	// Start Admins Area .
 	Route::resource('admins' , 'AdminsCtrl') ;
 	// End Admins Area .

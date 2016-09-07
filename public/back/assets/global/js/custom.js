@@ -2,7 +2,7 @@ $(document).ready(function() {
     
     Metronic.init(); // init metronic core components
 	Layout.init(); // init current layout
-	Login.init();
+	// Login.init();
   	Demo.init();
        // init background slide images
    
@@ -67,7 +67,8 @@ $(document).ready(function() {
 
     	});
 });
-    /* Start Js Page [ Photos - Admin Panel ] */
+    /* End Js Page [ Photos - Admin Panel ] */
+
 	function do_login(url) {
    		$('button').prop("disabled", true);
    		$('input').prop("disabled", true);
@@ -85,7 +86,7 @@ $(document).ready(function() {
 				    $('#login-status-message').append('<li>'+v+'</li>')
 				});
 				$('button').prop("disabled", false);
-					$('input').prop("disabled", false);
+				$('input').prop("disabled", false);
 		  	}else if(data.scode == 202){
 		  		$('#login-status').removeClass('info');
 	  			$('#login-status').addClass('success');
