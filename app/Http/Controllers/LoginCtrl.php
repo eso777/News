@@ -39,6 +39,7 @@ class LoginCtrl extends Controller {
 		if($validator->fails()){
 			return response()->json(['scode'=>401,'errors'=>$validator->errors()->all()],202);	
 		}
+		
 		if(Auth::admin()->attempt(['email' => $bag->email , 'password' => $bag->password ]))	
 		{
 			return response()->json(['scode'=>202,'msg'=>["successfully logged in , redirecting please wait ..."]],202);	
