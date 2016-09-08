@@ -46,5 +46,16 @@ Route::group(['prefix' => 'admin', 'middleware'=>'authAdmin'], function() {
 	// Photos .
 	
 
+	// Test Routes Chat App 
+
+	Route::get('get',function(){
+		echo phpinfo() ;
+	});
+
+
+	Route::get('get/chat','MessagesCtrl@getChat');
+	Route::get('get/messages','MessagesCtrl@getChat');
+	Route::post('get/chat','MessagesCtrl@getChat');
+
 	
 }); 

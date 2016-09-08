@@ -108,3 +108,14 @@ $(document).ready(function() {
 		  	}
   		});
 	}	
+/**************************Chat JS****************************/
+function chat_list_toggle() {
+	if($('#main_list').hasClass('minimized')){
+		$('#main_list').removeClass('minimized');
+	}else{
+		$('#main_list').addClass('minimized');
+	}
+}
+
+
+/**************************Chat JS****************************/

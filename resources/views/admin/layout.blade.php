@@ -62,6 +62,10 @@ Compiled and minified CSS -->
 {!! Html::style('back/assets/admin/layout2/css/custom-rtl.css') !!}
 <!-- END THEME STYLES -->
 
+<!-- Chat STYLES -->
+{!! Html::style('back/assets/global/css/chat.css') !!}
+<!-- END Chat STYLES -->
+
 <!-- Start Custom CSS File  --> 
 {!! Html::style('back/assets/global/css/custom.css') !!}
 <!-- End Custom CSS File  --> 
@@ -441,6 +445,18 @@ Compiled and minified CSS -->
 		<!--Cooming Soon...-->
 		<!-- END QUICK SIDEBAR -->
 	</div>
+	<div id="main_list" class="minimized hidden-sm hidden-xs" style="">
+    <div class="chat-window-title" id="main_title" onClick="chat_list_toggle()">
+        <div class="text">Friends</div>
+    </div>
+    <div class="chat-window-content" style="height:400px; display: block;">
+        <div class="chat-window-inner-content user-list" >
+           <div id="users"></div>
+        </div>
+    </div>
+</div>
+<div id="windows"></div>
+
 	<!-- END CONTAINER -->
 	<!-- BEGIN FOOTER -->
 	<div class="page-footer">
