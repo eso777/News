@@ -95,7 +95,8 @@ $(document).ready(function() {
 			    $.each(data.msg, function(k, v) {
 				    $('#login-status-message').append('<li>'+v+'</li>')
 				});
-				location.reload();
+				setTimeout(function(){ location.reload(); }, 4000);
+				
 		  	}else{
 		  		$('#login-status').removeClass('info');
 		  		$('#login-status-icon-container').find('i').removeClass('fa-spinner fa-pulse');
