@@ -444,18 +444,97 @@ Compiled and minified CSS -->
 		<!-- BEGIN QUICK SIDEBAR -->
 		<!--Cooming Soon...-->
 		<!-- END QUICK SIDEBAR -->
+	
+	<div id="main_list" class="mini" style="">
+	    <div class="chat-window-title" id="main_title" onClick="chat_list_toggle()">
+	        <div class="text" dir="ltr">Chat (<span id="numOnline">10</span>)</div>
+	    </div>
+	    <div class="chat-window-content" style="height:400px; display: block;">
+	        <div class="chat-window-inner-content user-list">
+	           <div id="users">
+	           	<div class="user-list-item" onclick="open_window(2,&quot;mohamed alaa&quot;)" data-val-id="2">
+	           		<img class="profile-picture" src="http://dailypuzzle.com/assets/images/avatar_na.png">
+	           		<div class="content">mohamed alaa</div>
+	           	</div>
+	           	<div class="user-list-item" onclick="open_window(3,&quot;ahmed Gad&quot;)" data-val-id="3">
+	           		<img class="profile-picture" src="http://dailypuzzle.com/assets/images/avatar_na.png">
+	           		<div class="content">ahmed Gad</div>
+	           	</div>
+	           </div>
+	        </div>
+	    </div>
 	</div>
-	<div id="main_list" class="minimized hidden-sm hidden-xs" style="">
-    <div class="chat-window-title" id="main_title" onClick="chat_list_toggle()">
-        <div class="text">Friends</div>
-    </div>
-    <div class="chat-window-content" style="height:400px; display: block;">
-        <div class="chat-window-inner-content user-list" >
-           <div id="users"></div>
-        </div>
-    </div>
+
+	<div id="windows">
+		<div class="chat-window mini" id="window_1" style="left:490px"> 
+			<div class="chat-window-title" onClick="chat_window_minimize(1)"> 
+				<div class="close" onclick="close_window(1);">
+					<i class="fa fa-times"></i>
+				</div> 
+				<div class="text">Ahmed Gad</div> 
+			</div> 
+			<div class="chat-window-content"> 
+				<div class="chat-window-inner-content message-board pm-window"> 
+					<div class="messages-wrapper" id="messages-wrapper-1" tabindex="0">
+						<div class="sended">Test</div>
+						<div class="recieved">Test</div>
+					</div> 
+					<div class="chat-window-text-box-wrapper" id="messages_1"> 
+						<form id="chatForm_1" onsubmit="send_message(1);"> 
+							<input type="text" id="chat_1" autocomplete="off" class="chat-window-text-box"> 
+						</form> 
+					</div>
+				</div> 
+			</div> 
+		</div>
+
+		<div class="chat-window mini" id="window_2" style="left:735px"> 
+			<div class="chat-window-title" onClick="chat_window_minimize(2)"> 
+				<div class="close" onclick="close_window(2);">
+					<i class="fa fa-times"></i>
+				</div> 
+				<div class="text">Ahmed Gad 2</div> 
+			</div> 
+			<div class="chat-window-content"> 
+				<div class="chat-window-inner-content message-board pm-window"> 
+					<div class="messages-wrapper" id="messages-wrapper-2" tabindex="0">
+						<div class="sended">Test</div>
+						<div class="recieved">Test</div>
+					</div> 
+					<div class="chat-window-text-box-wrapper" id="messages_2"> 
+						<form id="chatForm_2" onsubmit="send_message(2);"> 
+							<input type="text" id="chat_2" autocomplete="off" class="chat-window-text-box"> 
+						</form> 
+					</div>
+				</div> 
+			</div> 
+		</div>
+
+		<div class="chat-window mini" id="window_3" style="left:245px"> 
+			<div class="chat-window-title" onClick="chat_window_minimize(3)"> 
+				<div class="close" onclick="close_window(3);">
+					<i class="fa fa-times"></i>
+				</div> 
+				<div class="text">Ahmed Gad 3</div> 
+			</div> 
+			<div class="chat-window-content"> 
+				<div class="chat-window-inner-content message-board pm-window"> 
+					<div class="messages-wrapper" id="messages-wrapper-3" tabindex="0">
+						<div class="sended">Test</div>
+						<div class="recieved">Test</div>
+					</div> 
+					<div class="chat-window-text-box-wrapper" id="messages_3"> 
+						<form id="chatForm_3" onsubmit="send_message(3);"> 
+							<input type="text" id="chat_3" autocomplete="off" class="chat-window-text-box"> 
+						</form> 
+					</div>
+				</div> 
+			</div> 
+		</div>
+
+	</div>
 </div>
-<div id="windows"></div>
+
 
 	<!-- END CONTAINER -->
 	<!-- BEGIN FOOTER -->

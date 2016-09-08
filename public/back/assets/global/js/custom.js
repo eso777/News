@@ -111,12 +111,58 @@ $(document).ready(function() {
 	}	
 /**************************Chat JS****************************/
 function chat_list_toggle() {
-	if($('#main_list').hasClass('minimized')){
-		$('#main_list').removeClass('minimized');
+	if(!$('#main_list').hasClass('mini')){
+		$('#main_list').animate({
+		  height: "toggle",
+		  height: "450px",
+		});
+		$('#main_list').animate({
+		  height: "toggle",
+		  height: "35px",
+		});
+		$('#main_list').removeClass('mini')
 	}else{
-		$('#main_list').addClass('minimized');
+		$('#window_'+id).animate({
+		  height: "toggle",
+		  height: "20px",
+		});
+		$('#main_list').animate({
+		  height: "toggle",
+		  height: "436px",
+		});
+		$('#main_list').addClass('mini')
+		
 	}
 }
 
+function chat_window_minimize(id) {
 
+	if(!$('#window_'+id).hasClass('mini'))
+	{
+		$('#window_'+id).animate({
+		  height: "toggle",
+		  height: "290px",
+		});
+		$('#window_'+id).animate({
+		  height: "toggle",
+		  height: "35px",
+		});
+		
+		$('#window_'+id).removeClass('mini')
+	}else{
+		$('#window_'+id).animate({
+		  height: "toggle",
+		  height: "20px",
+		});
+		$('#window_'+id).animate({
+		  height: "toggle",
+		  height: "275px",
+		});
+		$('#window_'+id).addClass('mini')
+	}
+}
+
+function close_window(id) {
+	$('#window_'+id).remove();
+}
 /**************************Chat JS****************************/
