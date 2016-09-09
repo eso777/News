@@ -1,9 +1,9 @@
 $(document).ready(function() {    
     
     Metronic.init(); // init metronic core components
-	Layout.init(); // init current layout
+	//Layout.init(); // init current layout
 	// Login.init();
-  	Demo.init();
+  	//Demo.init();
        // init background slide images
    
     /* End Trigger Init() [ With - admin panel Metronic ] */ 
@@ -110,7 +110,7 @@ $(document).ready(function() {
   		});
 	}	
 /**************************Chat JS****************************/
-function chat_list_toggle() {
+/*function chat_list_toggle() {
 	if(!$('#main_list').hasClass('mini')){
 		$('#main_list').animate({
 		  height: "toggle",
@@ -164,5 +164,53 @@ function chat_window_minimize(id) {
 
 function close_window(id) {
 	$('#window_'+id).remove();
-}
+}*/
 /**************************Chat JS****************************/
+
+
+/* NEw Chat JS */
+
+$(document).on('click', '.panel-heading span.icon_minim', function (e) {
+    var $this = $(this);
+    if (!$this.hasClass('panel-collapsed')) {
+        $this.parents('.panel').find('.panel-body').slideUp();
+        $this.addClass('panel-collapsed');
+        $this.removeClass('glyphicon-minus').addClass('glyphicon-plus');
+    } else {
+        $this.parents('.panel').find('.panel-body').slideDown();
+        $this.removeClass('panel-collapsed');
+        $this.removeClass('glyphicon-plus').addClass('glyphicon-minus');
+    }
+});
+$(document).on('focus', '.panel-footer input.chat_input', function (e) {
+    var $this = $(this);
+    if ($('#minim_chat_window').hasClass('panel-collapsed')) {
+        $this.parents('.panel').find('.panel-body').slideDown();
+        $('#minim_chat_window').removeClass('panel-collapsed');
+        $('#minim_chat_window').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+    }
+});
+
+$(document).on('click', '#new_chat', function (e) {
+    var size = $( ".chat-window:last-child" ).css("margin-left");
+   //  size_total = parseInt(size) + 400;
+    var clone = $( "#chat_window_1" ).clone().appendTo( ".container" );
+    //clone.css("margin-left", size_total);
+});
+
+$(document).on('click', '.icon_close', function (e) {
+    $(this).parent().parent().parent().parent().remove();
+   // $(this).remove();
+});
+
+
+/* NEw Chat JS */
+
+/* Toggle Menu */
+
+ $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+/* Toggle Menu */
