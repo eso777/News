@@ -1,4 +1,11 @@
 $(document).ready(function() {    
+
+    $(".messages-wrapper").niceScroll({
+    	cursorcolor:"rgba(0, 0, 0, 0.3)",
+    	cursorwidth:'10px',
+    	bouncescroll:true,
+    });
+
     
     Metronic.init(); // init metronic core components
 	//Layout.init(); // init current layout
@@ -110,66 +117,48 @@ $(document).ready(function() {
   		});
 	}	
 /**************************Chat JS****************************/
-/*function chat_list_toggle() {
-	if(!$('#main_list').hasClass('mini')){
+function open_window(id) {
+	
+}
+
+function chat_list_toggle() {
+	if($('#main_list').hasClass('mini')){
 		$('#main_list').animate({
-		  height: "toggle",
-		  height: "450px",
-		});
-		$('#main_list').animate({
-		  height: "toggle",
-		  height: "35px",
-		});
-		$('#main_list').removeClass('mini')
-	}else{
-		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "20px",
-		});
-		$('#main_list').animate({
-		  height: "toggle",
 		  height: "436px",
 		});
-		$('#main_list').addClass('mini')
+		$('#main_list').removeClass('mini');
 		
+	}else{
+		$('#main_list').animate({
+		  height: "35px",
+		});
+		$('#main_list').addClass('mini');
 	}
 }
 
 function chat_window_minimize(id) {
-
-	if(!$('#window_'+id).hasClass('mini'))
+	if($('#window_'+id).hasClass('mini'))
 	{
 		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "290px",
+		  height: "295px"
 		});
-		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "35px",
-		});
-		
-		$('#window_'+id).removeClass('mini')
+		$('#window_'+id).removeClass('mini');
 	}else{
 		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "20px",
+		  height: "35px"
 		});
-		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "275px",
-		});
-		$('#window_'+id).addClass('mini')
+		$('#window_'+id).addClass('mini');
 	}
 }
 
 function close_window(id) {
 	$('#window_'+id).remove();
-}*/
+}
 /**************************Chat JS****************************/
 
 
 /* NEw Chat JS */
-
+/*
 $(document).on('click', '.panel-heading span.icon_minim', function (e) {
     var $this = $(this);
     if (!$this.hasClass('panel-collapsed')) {
@@ -207,10 +196,9 @@ $(document).on('click', '.icon_close', function (e) {
 /* NEw Chat JS */
 
 /* Toggle Menu */
-
- $("#menu-toggle").click(function(e) {
+/* $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-
+*/
 /* Toggle Menu */
