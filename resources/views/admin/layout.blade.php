@@ -66,7 +66,7 @@
 				</div>
 				<!-- END LOGO -->
 				<!-- BEGIN RESPONSIVE MENU TOGGLER -->
-				<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+				<a href="javascript:" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
 				</a>
 				<!-- END RESPONSIVE MENU TOGGLER -->
 				<!-- BEGIN PAGE ACTIONS -->
@@ -78,27 +78,27 @@
 						</button>
 						<ul class="dropdown-menu" role="menu">
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 								<i class="icon-user"></i> New User </a>
 							</li>
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 									<i class="icon-present"></i> New Event <span class="badge badge-success">4</span>
 								</a>
 							</li>
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 								<i class="icon-basket"></i> New order </a>
 							</li>
 							<li class="divider">
 							</li>
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 									<i class="icon-flag"></i> Pending Orders <span class="badge badge-danger">4</span>
 								</a>
 							</li>
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 									<i class="icon-users"></i> Pending Users <span class="badge badge-warning">12</span>
 								</a>
 							</li>
@@ -110,26 +110,26 @@
 						</button>
 						<ul class="dropdown-menu" role="menu">
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 								<i class="icon-docs"></i> New Post </a>
 							</li>
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 								<i class="icon-tag"></i> New Comment </a>
 							</li>
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 								<i class="icon-share"></i> Share </a>
 							</li>
 							<li class="divider">
 							</li>
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 									<i class="icon-flag"></i> Comments <span class="badge badge-success">4</span>
 								</a>
 							</li>
 							<li>
-								<a href="javascript:;">
+								<a href="javascript:">
 									<i class="icon-users"></i> Feedbacks <span class="badge badge-danger">2</span>
 								</a>
 							</li>
@@ -148,7 +148,7 @@
 						<ul class="nav navbar-nav pull-right">
 							
 							<li class="dropdown dropdown-user">
-								<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+								<a href="javascript:" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 									<span class="username username-hide-on-mobile">
 										{{ Auth::admin()->get()->name }}
 									</span>
@@ -455,7 +455,20 @@
 													<a href="#"><span class="glyphicon glyphicon-remove icon_close" data-id="chat_window_1"></span></a>
 												</div>
 											</div>
-											<ul class="messages panel-body"><li class="message left appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">Hello Philip! :)</div></div></li><li class="message right appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">Hi Sandy! How are you?</div></div></li><li class="message right appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">Hi Sandy! How are you?</div></div></li><li class="message right appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">Hi Sandy! How are you?</div></div></li><li class="message left appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">I'm fine, thank you!</div></div></li></ul>
+											<ul class="messages panel-body">
+												<li class="message left appeared">
+													<div class="avatar"></div>
+													<div class="text_wrapper">
+														<div class="text">Hello Philip! :)</div></div>
+												</li>
+												<li class="message right appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">Hi Sandy! How are you?</div></div></li>
+												<li class="message right appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">Hi Sandy! How are you?</div></div></li>
+												<li class="message right appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">Hi Sandy! How are you?</div></div></li>
+													<li class="message left appeared"><div class="avatar"></div><div class="text_wrapper"><div class="text">I'm fine, thank you!
+													</div>
+													</div>
+												</li>
+											</ul>
 											
 											<div class="panel-footer">
 												<div class="input-group">

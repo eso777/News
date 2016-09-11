@@ -527,7 +527,7 @@ AmCharts.AmExport = AmCharts.Class({
 
 		// Add external legend
 		if ( _this.chart.legend && _this.chart.legend.position == 'outside' ) {
-			_this.chart.legend.container.container.externalLegend = true
+			_this.chart.legend.container.container.externalLegend = true;
 			svgs.push(_this.chart.legend.container.container);
 
 			// Add offset

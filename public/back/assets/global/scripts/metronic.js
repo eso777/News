@@ -267,7 +267,7 @@ var Metronic = function() {
             } else {
                 el.removeClass('edited');
             }
-        } 
+        };
 
         $('body').on('keydown', '.form-md-floating-label > .form-control', function(e) { 
             handleInput($(this));
@@ -275,7 +275,7 @@ var Metronic = function() {
         $('body').on('blur', '.form-md-floating-label > .form-control', function(e) { 
             handleInput($(this));
         });        
-    }
+    };
 
     // Handles custom checkboxes & radios using jQuery iCheck plugin
     var handleiCheck = function() {
@@ -316,7 +316,7 @@ var Metronic = function() {
             return;
         }
         $('[data-toggle=confirmation]').confirmation({ container: 'body', btnOkClass: 'btn-xs btn-success', btnCancelClass: 'btn-xs btn-danger'});
-    }
+    };
     
     // Handles Bootstrap Accordions.
     var handleAccordions = function() {

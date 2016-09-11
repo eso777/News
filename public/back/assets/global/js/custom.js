@@ -103,7 +103,7 @@ $(document).ready(function() {
 		  		$('#login-status-icon-container').find('i').removeClass('fa-spinner fa-pulse');
 		  		$('#login-status-icon-container').find('i').addClass('fa-check-circle');
 		  		$('#login-status-message').html('');
-			    $('#login-status-message').append('<li>Some Error Happened</li>')
+			    $('#login-status-message').append('<li>Some Error Happened</li>');
 				$('button').prop("disabled", false);
 				$('input').prop("disabled", false);
 		  	}
@@ -192,9 +192,19 @@ $(document).on('focus', '.panel-footer input.chat_input', function (e) {
 });
 
 $(document).on('click', '#new_chat', function (e) {
-    var size = $( ".chat-window:last-child" ).css("margin-left");
+	//console.log("OO") ;
+	if($(".icon_close").size() > 0)
+	{
+    	var clone = $( "#chat_window_1" ).clone().appendTo( ".container" );
+		console.log("OP") 
+
+	}else
+	{
+		
+		//$("#chat_window_1").appendTo(".container") ;
+	}
+    //var size = $( ".chat-window:last-child" ).css("margin-left");
    //  size_total = parseInt(size) + 400;
-    var clone = $( "#chat_window_1" ).clone().appendTo( ".container" );
     //clone.css("margin-left", size_total);
 });
 

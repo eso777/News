@@ -26,15 +26,15 @@ Copyright (c) 2012 https://github.com/siefkenj/
  */
 
 ;(function(jsPDFAPI) {
-'use strict'
+'use strict';
 
-var namespace = 'addImage_'
+var namespace = 'addImage_';
 
 // takes a string imgData containing the raw bytes of
 // a jpeg image and returns [width, height]
 // Algorithm from: http://www.64lines.com/jpeg-width-height
 var getJpegSize = function(imgData) {
-	'use strict'
+	'use strict';
 	var width, height;
 	// Verify we have a valid jpeg header 0xff,0xd8,0xff,0xe0,?,?,'J','F','I','F',0x00
 	if (!imgData.charCodeAt(0) === 0xff ||
@@ -76,14 +76,14 @@ var getJpegSize = function(imgData) {
 , putImage = function(img) {
 	var objectNumber = this.internal.newObject()
 	, out = this.internal.write
-	, putStream = this.internal.putStream
+	, putStream = this.internal.putStream;
 
-	img['n'] = objectNumber
+	img['n'] = objectNumber;
 
-	out('<</Type /XObject')
-	out('/Subtype /Image')
-	out('/Width ' + img['w'])
-	out('/Height ' + img['h'])
+	out('<</Type /XObject');
+	out('/Subtype /Image');
+	out('/Width ' + img['w']);
+	out('/Height ' + img['h']);
 	if (img['cs'] === 'Indexed') {
 		out('/ColorSpace [/Indexed /DeviceRGB '
 				+ (img['pal'].length / 3 - 1) + ' ' + (objectNumber + 1)
@@ -118,7 +118,7 @@ var getJpegSize = function(imgData) {
 	out('endobj');
 }
 , putResourcesCallback = function() {
-	var images = this.internal.collections[namespace + 'images']
+	var images = this.internal.collections[namespace + 'images'];
 	for ( var i in images ) {
 		putImage.call(this, images[i])
 	}
@@ -126,9 +126,9 @@ var getJpegSize = function(imgData) {
 , putXObjectsDictCallback = function(){
 	var images = this.internal.collections[namespace + 'images']
 	, out = this.internal.write
-	, image
+	, image;
 	for (var i in images) {
-		image = images[i]
+		image = images[i];
 		out(
 			'/I' + image['i']
 			, image['n']
@@ -136,10 +136,10 @@ var getJpegSize = function(imgData) {
 			, 'R'
 		)
 	}
-}
+};
 
 jsPDFAPI.addImage = function(imageData, format, x, y, w, h) {
-	'use strict'
+	'use strict';
 	if (typeof imageData === 'object' && imageData.nodeType === 1) {
         var canvas = document.createElement('canvas');
         canvas.width = imageData.clientWidth;
@@ -172,15 +172,15 @@ jsPDFAPI.addImage = function(imageData, format, x, y, w, h) {
 		imageIndex = Object.keys ? 
 		Object.keys(images).length :
 		(function(o){
-			var i = 0
+			var i = 0;
 			for (var e in o){if(o.hasOwnProperty(e)){ i++ }}
 			return i
 		})(images)
 	} else {
 		// this is the first time this method is ran on this instance of jsPDF object.
-		imageIndex = 0
-		this.internal.collections[namespace + 'images'] = images = {}
-		this.internal.events.subscribe('putResources', putResourcesCallback)
+		imageIndex = 0;
+		this.internal.collections[namespace + 'images'] = images = {};
+		this.internal.events.subscribe('putResources', putResourcesCallback);
 		this.internal.events.subscribe('putXobjectDict', putXObjectsDictCallback)
 	}
 
@@ -196,7 +196,7 @@ jsPDFAPI.addImage = function(imageData, format, x, y, w, h) {
 		// n: objectNumber will be added by putImage code
 
 	};
-	images[imageIndex] = info
+	images[imageIndex] = info;
 	if (!w && !h) {
 		w = -96;
 		h = -96;
@@ -223,8 +223,8 @@ jsPDFAPI.addImage = function(imageData, format, x, y, w, h) {
 		, vcoord(y + h)
 		, 'cm /I'+info['i']
 		, 'Do Q'
-	)
+	);
 
 	return this 
 }
-})(jsPDF.API)
+})(jsPDF.API);

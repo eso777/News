@@ -56,14 +56,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
     $('#y').val(c.y);
     $('#w').val(c.w);
     $('#h').val(c.h);
-  };
-
+  }
   function checkCoords()
   {
     if (parseInt($('#w').val())) return true;
     alert('Please select a crop region then press submit.');
     return false;
-  };
+  }
 
 </script>
 <style type="text/css">

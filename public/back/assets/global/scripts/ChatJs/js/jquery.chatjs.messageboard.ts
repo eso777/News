@@ -23,7 +23,7 @@ class MessageBoardOptions {
     // whether to play sound when message arrives
     playSound: boolean;
     // path to the chatjs folder
-    chatJsContentPath: string
+    chatJsContentPath: string;
     height: number;
     newMessage: (message: ChatMessageInfo) => void;
 }

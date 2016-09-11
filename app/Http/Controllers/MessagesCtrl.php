@@ -16,13 +16,13 @@ class MessagesCtrl extends Controller {
     public function saveMessage()
     {
         if(Request::ajax()) {
+
             $data = Input::all();
-            $message = new Messages;
-            $message->author = $data["author"];
+
+            $message->author  =  $data["author"];
             $message->message = $data["message"];
             $message->save();
- 
-            Pusher::trigger('chat', 'message', ['message' => $message]);
+
         }
  
     }

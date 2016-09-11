@@ -98,7 +98,7 @@ var TableManaged = function () {
         });
 
         tableWrapper.find('.dataTables_length select').addClass("form-control input-xsmall input-inline"); // modify table per page dropdown
-    }
+    };
 
     var initTable2 = function () {
 
@@ -169,7 +169,7 @@ var TableManaged = function () {
         });
 
         tableWrapper.find('.dataTables_length select').select2(); // initialize select2 dropdown
-    }
+    };
 
     var initTable3 = function () {
 
@@ -237,7 +237,7 @@ var TableManaged = function () {
         });
 
         tableWrapper.find('.dataTables_length select').select2(); // initialize select2 dropdown
-    }
+    };
 
     return {
 
