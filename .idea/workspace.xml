@@ -2,237 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36442a15-5d48-4832-9e2e-5032d8693697" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_06_26_063535_create_settings_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_06_26_063535_create_settings_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/migrations/2016_09_08_095233_create_messages_table.php" afterPath="$PROJECT_DIR$/database/migrations/2016_09_08_095233_create_messages_table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin.php" afterPath="$PROJECT_DIR$/app/Admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Settings.php" afterPath="$PROJECT_DIR$/app/Settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/SettingsCtrl.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/SettingsCtrl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/exporting/amexport.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/exporting/amexport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/exporting/amexport.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/exporting/amexport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/exporting/amexport.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/exporting/amexport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-easypiechart/angular.easypiechart.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-easypiechart/angular.easypiechart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/assets/js/application.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/assets/js/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/as.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/as.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/az.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/az.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/frontend/layout/scripts/back-to-top.js" afterPath="$PROJECT_DIR$/public/back/assets/frontend/layout/scripts/back-to-top.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/bg.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/bg.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/assets/js/bootstrap-collapse.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/assets/js/bootstrap-collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-editable/bootstrap-editable/js/bootstrap-editable.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-editable/bootstrap-editable/js/bootstrap-editable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-fileinput/bootstrap-fileinput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/js/bootstrap-markdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/locale/bootstrap-markdown.kr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/locale/bootstrap-markdown.kr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/locale/bootstrap-markdown.ru.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/locale/bootstrap-markdown.ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/locale/bootstrap-markdown.ua.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/locale/bootstrap-markdown.ua.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-modal/js/bootstrap-modalmanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/assets/js/bootstrap-tab.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/assets/js/bootstrap-tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-tabdrop/js/bootstrap-tabdrop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/tabdrop/js/bootstrap-tabdrop.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/tabdrop/js/bootstrap-tabdrop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/assets/js/bootstrap-transition.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/assets/js/bootstrap-transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/bs.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/bs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/exporting/canvg.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/exporting/canvg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/exporting/canvg.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/exporting/canvg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/exporting/canvg.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/exporting/canvg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/charts-amcharts.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/charts-amcharts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-context-menu.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-context-menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-dropdowns.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-dropdowns.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-editors.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-editors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-form-tools.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-form-tools.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-form-tools2.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-form-tools2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-nouisliders.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-nouisliders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-pickers.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/components-pickers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/crop.php" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/crop.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/custom.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/custom.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/custom.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/back/assets/global/js/nicescroll.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/css/chat.css" afterPath="$PROJECT_DIR$/public/back/assets/global/css/chat.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/js/custom.js" afterPath="$PROJECT_DIR$/public/back/assets/global/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/examples/resources/jqueryui/dataTables.jqueryui.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/examples/resources/jqueryui/dataTables.jqueryui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/de.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/de.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/examples/plug-ins/dom_sort.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/examples/plug-ins/dom_sort.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/dropzone/dropzone.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/dropzone/dropzone.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/examples/advanced_init/dt_events.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/examples/advanced_init/dt_events.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/dv.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/dv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-index.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-orders-view.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-orders-view.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-orders.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-orders.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-products-edit.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-products-edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-products.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ecommerce-products.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/es.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/es.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/example.htm" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/example.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/fi.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/fi.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/fo.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/fo.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/fo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-editable.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-editable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-icheck.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-icheck.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-image-crop.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-image-crop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-validation.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-validation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-wizard.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/form-wizard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/fr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/fr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/fullcalendar/fullcalendar.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/fullcalendar/fullcalendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/gmaps/gmaps.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/gmaps/gmaps.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jqgrid/plugins/grid.setcolumns.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jqgrid/plugins/grid.setcolumns.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/gv.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/gv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/ha.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/ha.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/haw.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/haw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/holder.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/holder.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/hr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/hr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/hu.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/hu.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/id.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/id.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/ii.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/ii.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/inbox.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/inbox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/photos/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/photos/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/index.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/fancybox/demo/index.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/fancybox/demo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/index.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/index3.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/index3.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/is.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/is.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/it.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/it.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-ui/jquery-ui-1.10.3.custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-bootpag/jquery.bootpag.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-bootpag/jquery.bootpag.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.adapter.demo.js" afterPath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.adapter.demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.adapter.demo.ts" afterPath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.adapter.demo.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.adapter.servertypes.ts" afterPath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.adapter.servertypes.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.messageboard.ts" afterPath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.messageboard.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.pmwindow.ts" afterPath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.pmwindow.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.utils.js" afterPath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.utils.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.utils.ts" afterPath="$PROJECT_DIR$/public/back/assets/global/scripts/ChatJs/js/jquery.chatjs.utils.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/flot/jquery.colorhelpers.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/flot/jquery.colorhelpers.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-easypiechart/jquery.easypiechart.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/flot/jquery.flot.image.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/flot/jquery.flot.image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/flot/jquery.flot.pie.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/flot/jquery.flot.pie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/flot/jquery.flot.time.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/flot/jquery.flot.time.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/gritter/js/jquery.gritter.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/gritter/js/jquery.gritter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jqgrid/js/jquery.jqGrid.src.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jqgrid/js/jquery.jqGrid.src.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-knob/js/jquery.knob-rtl.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-knob/js/jquery.knob-rtl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-knob/js/jquery.knob.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-knob/js/jquery.knob.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/src/jquery.rateit.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/src/jquery.rateit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-sessiontimeout/jquery.sessionTimeout.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-sessiontimeout/jquery.sessionTimeout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jqgrid/plugins/jquery.tablednd.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jqgrid/plugins/jquery.tablednd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-tags-input/jquery.tagsinput.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-tags-input/jquery.tagsinput.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/slider-revolution-slider/rs-plugin/js/jquery.themepunch.revolution.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-validation/js/jquery.validate.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jquery-validation/js/jquery.validate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/zoom/jquery.zoom.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/zoom/jquery.zoom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/exporting/jspdf.plugin.addimage.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/exporting/jspdf.plugin.addimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/exporting/jspdf.plugin.addimage.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/exporting/jspdf.plugin.addimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/exporting/jspdf.plugin.addimage.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/exporting/jspdf.plugin.addimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/kk.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/kk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/kl.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/kl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/kok.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/kok.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/ku.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/ku.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/kw.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/kw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/ky.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/ky.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/chat/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/chat/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/layout.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/layout2/scripts/layout.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/layout2/scripts/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/layout3/scripts/layout.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/layout3/scripts/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/layout4/scripts/layout.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/layout4/scripts/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/layout/scripts/layout.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/layout/scripts/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/frontend/layout/scripts/layout.js" afterPath="$PROJECT_DIR$/public/back/assets/frontend/layout/scripts/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/frontend/onepage/scripts/layout.js" afterPath="$PROJECT_DIR$/public/back/assets/frontend/onepage/scripts/layout.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/login-soft.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/login-soft.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/login.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/login.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/lt.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/lt.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/lv.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/lv.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/manipulations.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/manipulations.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/maps-google.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/maps-google.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/maps-vector.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/maps-vector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/lib/markdown.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-markdown/lib/markdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/scripts/metronic.js" afterPath="$PROJECT_DIR$/public/back/assets/global/scripts/metronic.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/mk.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/mk.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/mn.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/mn.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/mn.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/mn.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/plupload/js/moxie.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/plupload/js/moxie.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/mt.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/mt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/mt.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/mt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/navOnTop.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/navOnTop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/navOnTop2.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/navOnTop2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/nl.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/nl.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/no.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/no.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/no.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/om.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/om.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/ckeditor/samples/plugins/htmlwriter/outputforflash.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/ckeditor/samples/plugins/htmlwriter/outputforflash.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel-rtl.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/owl-carousel/owl.carousel-rtl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/pa.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/pa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/pl.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/pl.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/progressBar.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/progressBar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/pt.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/pt.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/exporting/rgbcolor.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/exporting/rgbcolor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/exporting/rgbcolor.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/exporting/rgbcolor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/exporting/rgbcolor.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/exporting/rgbcolor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/ro.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/ro.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/ru.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/ru.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/rw.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/rw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/rw.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/rw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/rw.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/rw.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/sa.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/sa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/select2/select2.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/select2/select2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/select2/select2_locale_cs.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/select2/select2_locale_cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/settings.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/settings.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/sh/shBrushCSharp.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/sh/shBrushCSharp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/sh/shBrushCss.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/sh/shBrushCss.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/sh/shBrushJScript.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/sh/shBrushJScript.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/sh/shBrushXml.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/rateit/example/sh/shBrushXml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/examples/resources/syntax/shCore.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/datatables/examples/resources/syntax/shCore.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/si.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/si.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/sid.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/sid.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/sk.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/sk.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/so.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/so.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/so.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/so.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-summernote/summernote.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-summernote/summernote.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/sync.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/carousel-owl-carousel/demos/sync.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/syr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/syr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-advanced.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-advanced.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-ajax.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-editable.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-editable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-managed.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-managed.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-tree.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/table-tree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/tg.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/tg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/th.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/th.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/timeline.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/timeline.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-toastr/toastr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-toastr/toastr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/todo.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/todo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/tr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amcharts/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/tr.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/amstockcharts/lang/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/trv.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/trv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/tt.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/tt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/tutorial2.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/tutorial2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/tutorial3.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/tutorial3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/tutorial4.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/tutorial4.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/tutorial5.html" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/jcrop/demos/tutorial5.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-alert-dialog-api.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-alert-dialog-api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-blockui.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-blockui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-confirmations.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-confirmations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-general.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-general.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-tree.js" afterPath="$PROJECT_DIR$/public/back/assets/admin/pages/scripts/ui-tree.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/uz.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/uz.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/bootstrap-wysihtml5/wysihtml5-0.3.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/yo.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/yo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/zu.js" afterPath="$PROJECT_DIR$/public/back/assets/global/plugins/amcharts/ammap/lang/zu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="news.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -266,8 +41,8 @@
       <file leaf-file-name="MessagesCtrl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.727273" vertical-offset="255" max-vertical-offset="960">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state vertical-scroll-proportion="-6.266667" vertical-offset="127" max-vertical-offset="840">
+              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding>
                 <element signature="e#39#61#0#PHP" expanded="true" />
               </folding>
@@ -278,7 +53,7 @@
       <file leaf-file-name="Pages.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Pages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="864">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -288,19 +63,22 @@
       <file leaf-file-name="Messages.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Messages.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="360">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="315">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016_09_08_095233_create_messages_table.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_08_095233_create_messages_table.php">
+      <file leaf-file-name="layout.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/layout.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29946524" vertical-offset="0" max-vertical-offset="1008">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding />
+            <state vertical-scroll-proportion="9.250454" vertical-offset="258" max-vertical-offset="13545">
+              <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -316,10 +94,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response3.txt" root0="SKIP_INSPECTION" />
-    <setting file="mock:///Dummy.txt" root0="SKIP_INSPECTION" />
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -332,6 +106,7 @@
         <option value="$PROJECT_DIR$/resources/views/admin/settings.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_09_08_095233_create_messages_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layout.blade.php" />
       </list>
     </option>
   </component>
@@ -423,7 +198,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -437,11 +216,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="news" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -459,6 +256,9 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
   </component>
+  <component name="ReadonlyStatusHandler">
+    <option name="SHOW_DIALOG" value="false" />
+  </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
@@ -467,17 +267,20 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
       <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -487,9 +290,6 @@
       <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
     <list size="0" />
@@ -508,31 +308,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="false" />
     <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26096824" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41157556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26096824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1182" height="554" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41157556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32868218" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -556,93 +357,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="884">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="e#22#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#22#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5151515" vertical-offset="0" max-vertical-offset="594">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotosCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.444445" vertical-offset="0" max-vertical-offset="2052">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_26_063535_create_settings_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5561497" vertical-offset="216" max-vertical-offset="1200">
-          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.818182" vertical-offset="0" max-vertical-offset="432">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/settings.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8759124" vertical-offset="816" max-vertical-offset="2664">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SettingsCtrl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5182482" vertical-offset="220" max-vertical-offset="1368">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/photos/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6569343" vertical-offset="0" max-vertical-offset="1296">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.727273" vertical-offset="255" max-vertical-offset="960">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="960">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#39#61#0#PHP" expanded="true" />
@@ -660,7 +377,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Messages.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -668,9 +385,214 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_08_095233_create_messages_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29946524" vertical-offset="0" max-vertical-offset="1008">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="447" max-vertical-offset="1008">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="960">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_08_095233_create_messages_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="447" max-vertical-offset="1008">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15504">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="960">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_08_095233_create_messages_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1008">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="884">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5151515" vertical-offset="0" max-vertical-offset="594">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PhotosCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.444445" vertical-offset="0" max-vertical-offset="2052">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_06_26_063535_create_settings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5561497" vertical-offset="216" max-vertical-offset="1200">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.818182" vertical-offset="0" max-vertical-offset="432">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/settings.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8759124" vertical-offset="816" max-vertical-offset="2664">
+          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SettingsCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5182482" vertical-offset="220" max-vertical-offset="1368">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/photos/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6569343" vertical-offset="0" max-vertical-offset="1296">
+          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="864">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_09_08_095233_create_messages_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1542553" vertical-offset="0" max-vertical-offset="882">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/MessagesCtrl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.266667" vertical-offset="127" max-vertical-offset="840">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#39#61#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Messages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="594">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="9.250454" vertical-offset="258" max-vertical-offset="13545">
+          <caret line="255" column="8" selection-start-line="255" selection-start-column="8" selection-end-line="255" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#div#2;n#div#0;n#div#1;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

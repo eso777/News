@@ -1,4 +1,11 @@
 $(document).ready(function() {    
+
+    $(".messages-wrapper").niceScroll({
+    	cursorcolor:"rgba(0, 0, 0, 0.3)",
+    	cursorwidth:'10px',
+    	bouncescroll:true,
+    });
+
     
     Metronic.init(); // init metronic core components
 	//Layout.init(); // init current layout
@@ -110,66 +117,124 @@ $(document).ready(function() {
   		});
 	}	
 /**************************Chat JS****************************/
-/*function chat_list_toggle() {
-	if(!$('#main_list').hasClass('mini')){
+/*  Get Id user or admin */
+$(document).on('click', '.content', function(event) {
+
+	var admin = $(this).parent();
+	// This ID Per user Or Admin . 
+	//console.log(admin.attr('data-val-id'));
+	var id = admin.attr('data-val-id') ;
+	//console.log('"window_'+id+'"') ;
+	open_window(id) ;
+});
+
+function open_window(id) {
+	
+
+	var windowBox = 
+	"<div class='chat-window mini' id=\"window_"+id+"\"  style='left:245px ; height:314px'>"
+    +"<div class='chat-window-title' onclick=\"chat_window_minimize("+id+")\">"
+       + "<div class='close' onclick=\"close_window("+id+")\"></div>"
+      +  "<div class='text'>ahmed Gad</div>"
+	+"</div>"
+
+	+"<div class='chat-window-content' style='display: block;'>"
+       + "<div class='chat-window-inner-content message-board pm-window'>"
+           + "<div class='messages-wrapper' id='messages-wrapper-id' tabindex='0'>"
+                
+               + "<div class='message-sended'>"
+                      + " <div class='text-sended'>"
+                            +"Some Text Message Sended"
+                     + "</div>"
+               + "</div>"
+
+              +  "<div class='message-recieved'>"
+                   + "<div class='text-recieved'>"
+                 	+   "Some Text Message Recieved"
+                  +  "</div>"
+               + "</div>"
+
+          + "</div>"
+
+          + "<div class='panel-footer'>"
+               + "<div class='input-group'>"
+                	+"<input id='btn-input' type='text' class='form-control input-sm chat_input' placeholder=\"... Write your message here\"/>"
+						+"<span class='input-group-btn'>"
+						+	"<button class='btn btn-primary btn-sm' id='btn-chat'>Send</button>"
+					+	"</span>"
+             +   "</div>"
+
+               + "<div class='chat-window-text-box-wrapper' id='messages_1'>"
+                        +"<form id='chatForm_1' onsubmit='send_message(1);'>"
+                            +"<input type='text' id='chat_1' autocomplete='off' class='chat-window-text-box'>"
+                       + "</form>"
+                   + "</div>"
+               + "</div>"
+       	+"</div>"
+ 	 +"</div>"
++"</div>";
+
+	/* Section append windowBox   *****************************/
+	//console.log($('.chat-window').size());
+	if($('.chat-window').size() > 0)
+	{
+		var size = $(".chat-window:last-child").css("left");
+		var clone = $(".chat_window").clone().appendTo(windowBox);
+			
+		
+		//$("#chat_window_1").appendTo(".container") ;
+		
+	    //var size = $( ".chat-window:last-child" ).css("margin-left");
+	   //  size_total = parseInt(size) + 400;
+	    //clone.css("margin-left", size_total);
+	}else
+	{
+		console.log("Oo") ;
+		$('#windows').append(windowBox) ; // Add NEw Box 
+	}
+
+
+}// ENd Function 
+
+function chat_list_toggle() {
+	if($('#main_list').hasClass('mini')){
 		$('#main_list').animate({
-		  height: "toggle",
-		  height: "450px",
-		});
-		$('#main_list').animate({
-		  height: "toggle",
-		  height: "35px",
-		});
-		$('#main_list').removeClass('mini')
-	}else{
-		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "20px",
-		});
-		$('#main_list').animate({
-		  height: "toggle",
 		  height: "436px",
 		});
-		$('#main_list').addClass('mini')
+		$('#main_list').removeClass('mini');
 		
+	}else{
+		$('#main_list').animate({
+		  height: "35px",
+		});
+		$('#main_list').addClass('mini');
 	}
 }
 
 function chat_window_minimize(id) {
-
-	if(!$('#window_'+id).hasClass('mini'))
+	if($('#window_'+id).hasClass('mini'))
 	{
 		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "290px",
+		  height: "295px"
 		});
-		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "35px",
-		});
-		
-		$('#window_'+id).removeClass('mini')
+		$('#window_'+id).removeClass('mini');
 	}else{
 		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "20px",
+		  height: "35px"
 		});
-		$('#window_'+id).animate({
-		  height: "toggle",
-		  height: "275px",
-		});
-		$('#window_'+id).addClass('mini')
+		$('#window_'+id).addClass('mini');
 	}
 }
 
 function close_window(id) {
+	//console.log($('#window_'+id)) ;
 	$('#window_'+id).remove();
-}*/
-/**************************Chat JS****************************/
+}
+/************************** Chat JS ****************************/
 
 
 /* NEw Chat JS */
-
+/*
 $(document).on('click', '.panel-heading span.icon_minim', function (e) {
     var $this = $(this);
     if (!$this.hasClass('panel-collapsed')) {
@@ -217,10 +282,9 @@ $(document).on('click', '.icon_close', function (e) {
 /* NEw Chat JS */
 
 /* Toggle Menu */
-
- $("#menu-toggle").click(function(e) {
+/* $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
-
+*/
 /* Toggle Menu */

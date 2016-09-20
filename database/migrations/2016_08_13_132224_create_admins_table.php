@@ -21,6 +21,8 @@ class CreateAdminsTable extends Migration {
 			$table->text('pre');
 			$table->text('cat_pre');
 			$table->string('remember_token');
+			$table->timestamp('active_ago');
+			
 			$table->timestamps();
 		});
 	}

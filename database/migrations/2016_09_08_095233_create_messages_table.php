@@ -19,7 +19,6 @@ class CreateMessagesTable extends Migration {
             $table->integer('res_id');
             $table->text('message');
             $table->integer('status');
-            $table->timestamp('active_ago');
             $table->timestamps();
 		});
 	}

@@ -27,13 +27,8 @@
 						<a href='#'>
 							<i class="fa fa-times" aria-hidden="true" title='حذف الصورة'></i>
 						</a>
-						{!! $i = 1 !!}
-						@foreach($images as $image)
-							<img src="{!! Url('/') !!}/uploads/back-end/photos/{{ $image }}" class="img-thumbnail">
-							<small class='pull-left text text-danger '>{{ $photo->name }}</small>
-						{!! $i++ !!}
-							
-						@endforeach
+						<img src="{!! Url('/') !!}/uploads/back-end/photos/{{ $images[0] }}" class="img-thumbnail">
+						<small class='pull-left text text-danger '>{{ $photo->name }}</small>
 					</div>
 				@endforeach
 			</div>
