@@ -45,6 +45,13 @@ Route::group(['prefix' => 'admin', 'middleware'=>'authAdmin'], function() {
 	Route::resource('photos','PhotosCtrl') ;
 	// Photos .
 	
+	// Articles .
+	Route::resource('articles','ArticlesCtrl') ;
+	Route::get('articles/categories/{id}','ArticlesCtrl@categories') ;
+
+	
+	// Articles .
+	
 
 	// Test Routes Chat App 
 	

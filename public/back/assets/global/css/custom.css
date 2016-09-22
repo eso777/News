@@ -73,4 +73,12 @@
 /* End Photos styles */
 
 
-
+.nav-tabs, .nav-pills{
+margin-bottom: 0;
+}
+.aside-box{
+	background: #fff;
+	border:1px solid #ddd;
+	border-top:0 ;
+	padding: 10px;
+}

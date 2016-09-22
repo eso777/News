@@ -29,7 +29,12 @@
 		{!! Html::style('back/assets/global/plugins/jquery-file-upload/css/jquery.fileupload-ui.css') !!}
 		<!-- BEGIN THEME STYLES -->
 		{!! Html::style('back/assets/global/css/components-md-rtl.css') !!}
-		
+		{!! Html::style('back/assets/global/plugins/bootstrap-select/bootstrap-select.min.css') !!}
+		{!! Html::style('back/assets/global/plugins/select2/select2.css') !!}
+		{!! Html::style('back/assets/global/plugins/jquery-multi-select/css/multi-select.css') !!}
+
+	
+
 		<!-- Start Include Css file Confirm plugin  -->
 		{!! Html::style('back/assets/global/css/jquery-confirm.min.css') !!}
 		<!-- End Include Confirm plugin  -->
@@ -41,6 +46,7 @@
 		{!! Html::style('back/assets/admin/layout2/css/custom-rtl.css') !!}
 		<!-- END THEME STYLES -->
 		<!-- Start Chat Style  -->
+		{!! Html::style('back/assets/global/css/bootstrap-datetimepicker.min.css') !!}
 		{!! Html::style('back/assets/global/css/chat.css') !!}
 		<!-- END Chat Style  -->
 		
@@ -521,6 +527,11 @@
 			{!! Html::script("back/assets/global/plugins/typeahead/typeahead.bundle.min.js") !!}
 			{!! Html::script("back/assets/global/plugins/ckeditor/ckeditor.js") !!}
 			{!! Html::script("back/assets/global/plugins/dropzone/dropzone.js") !!}
+
+			{!! Html::script("back/assets/global/plugins/bootstrap-select/bootstrap-select.min.js") !!}
+			{!! Html::script("back/assets/global/plugins/select2/select2.min.js") !!}
+			{!! Html::script("back/assets/global/plugins/jquery-multi-select/js/jquery.multi-select.js") !!}
+
 			{!! Html::script("back/assets/global/scripts/metronic.js") !!}
 			<!--  Start Include js file plugin confirm-->
 			{!! Html::script("back/assets/global/scripts/jquery-confirm.min.js") !!}
@@ -528,6 +539,10 @@
 			{!! Html::script("back/assets/admin/layout4/scripts/layout.js") !!}
 			{!! Html::script("back/assets/admin/layout4/scripts/demo.js") !!}
 			{!! Html::script("back/assets/admin/pages/scripts/form-dropzone.js") !!}
+			{!! Html::script("back/assets/global/scripts/moment.min.js") !!}
+			{!! Html::script("back/assets/global/scripts/bootstrap-datetimepicker.js") !!}
+
+
 			<!-- Start JS CUstom  -->
 			{!! Html::script('back/assets/global/js/nicescroll.js') !!}
 			{!! Html::script('back/assets/global/js/custom.js') !!}

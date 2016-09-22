@@ -137,6 +137,7 @@ License: You must have a valid license purchased only from themeforest(the above
 <script src="{!!Url('/')!!}/back/assets/admin/layout/scripts/demo.js" type="text/javascript"></script>
 <script src="{!!Url('/')!!}/back/assets/admin/pages/scripts/login-soft.js" type="text/javascript"></script>
 <script src="{!!Url('/')!!}/back/assets/global/js/custom.js" type="text/javascript"></script>
+<script src="{!!Url('/')!!}/back/assets/global/js/nicescroll.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
 

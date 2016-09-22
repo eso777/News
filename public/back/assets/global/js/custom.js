@@ -23,6 +23,7 @@ $(document).ready(function() {
 		
 	/* Start My Custom js framework  */	
 		
+
 		/* Start Add More Input File To add more images */
 			var max_fields      = 15;
 			var wrapper         = '.contant-images-file';
