@@ -18,8 +18,20 @@ class SettingsCtrl extends Controller {
  		if(in_array('settings', explode('|', $check)))
 		{
 			$settings = Settings::first();
-			return view('admin.settings' , compact('settings')) ;
-		}
+            $themes = [] ;
+            $d = opendir(base_path('resources/views/themes'));
+            $i = 0 ;
+
+            while (false !== ($entry = readdir($d))) {
+             if($entry !== '.' && $entry !== '..')
+             {
+                 $themes[$entry] = $entry ;
+                 $i++ ;
+             }
+            }
+
+            return view('admin.settings' , compact('settings','themes')) ;
+        }
 
 		return redirect()->to(Url('/').'/admin')->with(['msgErr'=>'عفوا , غير مسموح بزيارة هذة الصفحة']);
 	}

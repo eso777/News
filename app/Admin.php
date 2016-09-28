@@ -1,17 +1,18 @@
 <?php namespace App;
 
-
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Auth\Passwords\CanResetPassword;
 use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
 use Illuminate\Contracts\Auth\CanResetPassword as CanResetPasswordContract;
+use Illuminate\Support\Facades\Auth;
+
 class Admin extends Model implements AuthenticatableContract, CanResetPasswordContract {
 
 	use Authenticatable, CanResetPassword;
 
 	protected $table    = 'admins' ;
-	protected $fillable = ['name', 'email', 'password','pre', 'cat_pre'];
+    protected $fillable = ['name', 'email', 'password','pre', 'cat_pre'];
 		
 	protected $hidden   = ['password'];
 
@@ -46,3 +47,4 @@ class Admin extends Model implements AuthenticatableContract, CanResetPasswordCo
 	/* End Function messages For Errors return  */
 
 }
+// End class

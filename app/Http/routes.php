@@ -7,10 +7,11 @@ Route::get('admin/logout' , 'LoginCtrl@adminLogout') ;
 Route::group(['prefix' => 'admin', 'middleware'=>'authAdmin'], function() {
 	
 	// Get Layout Page .
-	Route::get('/',function()
-	{
-		return View('admin.layout');
-	});	
+	Route::get('/',function(){
+		return view('admin.layout') ;
+	});
+	// Get Layout Page .
+
 
 	// Site Settings .
 	Route::resource('settings' , 'SettingsCtrl') ;
@@ -57,8 +58,8 @@ Route::group(['prefix' => 'admin', 'middleware'=>'authAdmin'], function() {
 	
 
 	Route::get('get/chat','MessagesCtrl@getChat');
-	Route::get('get/messages','MessagesCtrl@getChat');
-	Route::post('get/chat','MessagesCtrl@getChat');
+	Route::post('get/add','MessagesCtrl@store');
+	Route::get('get/ajax','MessagesCtrl@ajax');
 
 	
 }); 

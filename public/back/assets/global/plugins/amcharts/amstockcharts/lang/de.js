@@ -10,4 +10,4 @@ AmCharts.translations.de = {
 	"selectText":"Auswahl:",
 	"comboBoxSelectText":"Auswahl...",
 	"compareText":"Vergleichen mit:"
-}
+};

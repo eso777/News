@@ -65,7 +65,7 @@ class DemoServerAdapter implements IServerAdapter {
         var myUser = new ChatUserInfo();
         myUser.Id = DemoAdapterConstants.CURRENT_USER_ID;
         myUser.RoomId = DemoAdapterConstants.DEFAULT_ROOM_ID;
-        myUser.Name = "André Pena"
+        myUser.Name = "André Pena";
         myUser.Email = "andrerpena@gmail.com";
         myUser.ProfilePictureUrl = "http://www.gravatar.com/avatar/574700aef74b21d386ba1250b77d20c6.jpg";
         myUser.Status = UserStatusType.Online;
@@ -80,7 +80,7 @@ class DemoServerAdapter implements IServerAdapter {
         echoBotUser.Status = UserStatusType.Online;
 
         // adds the users in the global user list
-        this.users = new Array<ChatUserInfo>();
+        this.users = [];
         this.users.push(myUser);
         this.users.push(echoBotUser);
 
@@ -90,7 +90,7 @@ class DemoServerAdapter implements IServerAdapter {
         defaultRoom.Name = "Default Room";
         defaultRoom.UsersOnline = this.users.length;
 
-        this.rooms = new Array<ChatRoomInfo>();
+        this.rooms = [];
         this.rooms.push(defaultRoom);
 
         // configuring client to return every event to me

@@ -66,10 +66,10 @@ class ChatPmWindow implements IWindow<PmWindowState> {
             };
             chatWindowOptions.onClose = () => {
                 this.options.onClose(this);
-            }
+            };
             chatWindowOptions.onMaximizedStateChanged = (chatPmWindow, isMaximized) => {
                 this.options.onMaximizedStateChanged(this, isMaximized);
-            }
+            };
             this.chatWindow = $.chatWindow(chatWindowOptions);
             this.options.onCreated(this);
         });

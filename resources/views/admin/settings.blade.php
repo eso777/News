@@ -53,7 +53,14 @@
 			    <small class="text-danger">{{ $errors->first('site_tags_en') }}</small>
 			</div>
 
-			<div class="form-group{{ $errors->has('site_status') ? ' has-error' : '' }}">
+            <div class="form-group{{ $errors->has('site_status') ? ' has-error' : '' }}">
+                {!! Form::label('theme', 'الثيم الأفتراضي ') !!}
+                {!! Form::select('theme', $themes, null, ['id' => 'site_status', 'class' => 'form-control', 'required' => 'required']) !!}
+                <small class="text-danger">{{ $errors->first('site_status') }}</small>
+            </div>
+
+
+            <div class="form-group{{ $errors->has('site_status') ? ' has-error' : '' }}">
 			    {!! Form::label('site_status', 'حالة الموقع') !!}
 			    {!! Form::select('site_status', ['0'=>'مغلق','1'=>'مفتوح'], null, ['id' => 'site_status', 'class' => 'form-control', 'required' => 'required']) !!}
 			    <small class="text-danger">{{ $errors->first('site_status') }}</small>
@@ -65,7 +72,7 @@
 				    <small class="text-danger">{{ $errors->first('') }}</small>
 			</div>	
 				
-			<div class="form-group{{ $errors->has('twitter') ? ' has-error' : '' }}">
+            <div class="form-group{{ $errors->has('twitter') ? ' has-error' : '' }}">
 			    {!! Form::label('twitter', 'تويتر') !!}
 			    {!! Form::text('twitter', null, ['class' => 'form-control', 'required' => 'required']) !!}
 			    <small class="text-danger">{{ $errors->first('twitter') }}</small>

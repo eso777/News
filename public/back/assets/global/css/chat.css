@@ -41,7 +41,7 @@
     direction: ltr;
     position: fixed;
     bottom: 0;
-    left: 40px;  
+    left: 280px;  
 }
 
 .chat-window{
@@ -52,7 +52,7 @@
     font-family: Arial, Helvetica;
     font-size: 12px;
     line-height: 14.4px;
-    position: absolute;
+    /* position: absolute; */
     width: 230px;
     z-index: 10001;
     float: left; 
@@ -594,9 +594,18 @@ height: 20px;
 margin: 4px 3px 2px 0;
 width: 20px;
 }
+
 .mini{
 height: 35px;
 }
+
+.online-status {
+    /* position: absolute;
+    top: 54px; color:#218203;
+    right: 12px;  */
+}
+
+
 /* 
 div.col-xs-12{
     position: absolute;

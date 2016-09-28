@@ -22,7 +22,7 @@
     Message: string;
 
     /// Client GUID
-    ClientGuid: string
+    ClientGuid: string;
 
     /// Still verifying whether this is necessary
     DateTime: Date
@@ -49,10 +49,10 @@ class ChatUserInfo {
     Name: string;
 
     /// Profile Url
-    Url: string
+    Url: string;
 
     /// User profile picture URL (Gravatar, for instance)
-    ProfilePictureUrl: string
+    ProfilePictureUrl: string;
 
     /// User's status
     Status: UserStatusType;
@@ -69,10 +69,10 @@ class ChatUserInfo {
 
 class ChatRoomInfo {
     /// The room id
-    Id: number
+    Id: number;
 
     /// The room display name
-    Name: string
+    Name: string;
 
     /// Number of online users right now
     UsersOnline: number;

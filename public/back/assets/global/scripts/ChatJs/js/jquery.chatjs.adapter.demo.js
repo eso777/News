@@ -75,7 +75,7 @@ var DemoServerAdapter = (function () {
         echoBotUser.Status = 1 /* Online */;
 
         // adds the users in the global user list
-        this.users = new Array();
+        this.users = [];
         this.users.push(myUser);
         this.users.push(echoBotUser);
 
@@ -85,7 +85,7 @@ var DemoServerAdapter = (function () {
         defaultRoom.Name = "Default Room";
         defaultRoom.UsersOnline = this.users.length;
 
-        this.rooms = new Array();
+        this.rooms = [];
         this.rooms.push(defaultRoom);
 
         // configuring client to return every event to me

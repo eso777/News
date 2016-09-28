@@ -8,27 +8,41 @@ use App\Messages ;
 
 class MessagesCtrl extends Controller {
 
-	public function getChat()
+
+    public function getChat()
     {
-        return view('admin.chat.index');
+       $tests = Messages::get();
+        return view('admin.chat.index' ,compact('tests')) ;
+    } 
+	public function ajax()
+    {   
+        
+        ini_set('max_execution_time',7200);
+      
+        while (Messages::where('status',0)->count() < 1) {
+            usleep(1000);
+        }
+        if(Messages::where('status',0)->count() > 0)
+        {
+            $data = Messages::where('status',0)->first();
+            $id   = $data->id ;
+            $edit = Messages::find($id);
+            $edit->status = 2 ; 
+            $edit->save();
+          
+            return response()->json([
+                'message' => $data->message  
+            ]);
+        }
+
     }
 
-    public function saveMessage()
+    public function store(Request $bag)
     {
-        if(Request::ajax()) {
-            $data = Input::all();
-            $message = new Messages;
-            $message->author = $data["author"];
-            $message->message = $data["message"];
-            $message->save();
- 
-            Pusher::trigger('chat', 'message', ['message' => $message]);
-        }
- 
+        $table  = new Messages ;
+        $table->message = $bag->msg;
+        $table->save();
     }
  	
- 	public function listMessages(Messages $message) {
-        return response()->json($message->orderBy("created_at", "DESC")->take(5)->get());
-    }
 
 }

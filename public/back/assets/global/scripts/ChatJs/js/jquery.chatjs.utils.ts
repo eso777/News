@@ -3,7 +3,7 @@
 class ChatJsUtils {
 
     static setOuterHeight(jQuery: JQuery, height: number): void {
-        var heights = new Array<number>();
+        var heights = [];
         heights.push(parseInt(jQuery.css("padding-top").replace("px", "")));
         heights.push(parseInt(jQuery.css("padding-bottom").replace("px", "")));
         heights.push(parseInt(jQuery.css("border-top-width").replace("px", "")));
@@ -17,7 +17,7 @@ class ChatJsUtils {
     }
 
     static setOuterWidth(jQuery: JQuery, width: number): void {
-        var widths = new Array<number>();
+        var widths = [];
         widths.push(parseInt(jQuery.css("padding-left").replace("px", "")));
         widths.push(parseInt(jQuery.css("padding-right").replace("px", "")));
         widths.push(parseInt(jQuery.css("border-top-left").replace("px", "")));
